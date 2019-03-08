@@ -1,0 +1,13 @@
+Package: AllenData
+Title: Loading Allen data into R.
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Alexander",
+           family = "Aivazidis",
+           role = c("aut", "cre"),
+           email = "alexander.aivazidis@sanger.ac.uk")
+Description: Interface to load Allen data.
+License: Free for anybody to use and copy as they wish.
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1.9000
