@@ -12,7 +12,7 @@
 #' @examples
 #' loadAllenData()
 
-loadAllenData = function(cortical_area, normalization = 'exon+intron_cpm', directory = '/nfs/team205/aa16/AllenData/'){
+loadAllenData = function(cortical_area, species = 'mouse', normalization = 'exon+intron_cpm', directory = '/nfs/team205/aa16/AllenData/'){
   
   if (!normalization %in% c('exon_rpkm', 'exon+intron_cpm'))
   {

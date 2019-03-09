@@ -4,17 +4,18 @@
 \alias{loadAllenData}
 \title{Loading Allen Data into R}
 \usage{
-loadAllenData(cortical_area, normalization = "exon+intron_cpm",
+loadAllenData(cortical_area, species = "mouse",
+  normalization = "exon+intron_cpm",
   directory = "/nfs/team205/aa16/AllenData/")
 }
 \arguments{
 \item{cortical_area}{The cortical area to load e.g. 'ALM'}
 
+\item{species}{The species for which to load the data e.g. human or mouse}
+
 \item{normalization}{Normalization method to use out of 'exon_rpkm' and 'exon+intron_cpm'}
 
 \item{directory}{Directory where the data is located}
-
-\item{species}{The species for which to load the data e.g. human or mouse}
 }
 \description{
 This function converts an unnormalized countmatrix of genes x samples into counts-per-million normalization
