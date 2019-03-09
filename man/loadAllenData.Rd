@@ -18,7 +18,7 @@ loadAllenData(cortical_area, species = "mouse",
 \item{directory}{Directory where the data is located}
 }
 \description{
-This function converts an unnormalized countmatrix of genes x samples into counts-per-million normalization
+This function is an interface for loading RNA-seq data from the Allen institute into R
 }
 \examples{
 loadAllenData()

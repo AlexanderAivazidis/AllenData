@@ -2,7 +2,7 @@
 
 #' Loading Allen Data into R
 #'
-#' This function converts an unnormalized countmatrix of genes x samples into counts-per-million normalization
+#' This function is an interface for loading RNA-seq data from the Allen institute into R
 #' @param cortical_area The cortical area to load e.g. 'ALM'
 #' @param species The species for which to load the data e.g. human or mouse
 #' @param normalization Normalization method to use out of 'exon_rpkm' and 'exon+intron_cpm'
