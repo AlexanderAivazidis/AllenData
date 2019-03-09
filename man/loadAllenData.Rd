@@ -2,7 +2,7 @@
 % Please edit documentation in R/allenData.R
 \name{loadAllenData}
 \alias{loadAllenData}
-\title{Counts per million normalization}
+\title{Loading Allen Data into R}
 \usage{
 loadAllenData(cortical_area, normalization = "exon+intron_cpm",
   directory = "/nfs/team205/aa16/AllenData/")

@@ -1,6 +1,6 @@
 ### Interface to all Allen Data sets
 
-#' Counts per million normalization
+#' Loading Allen Data into R
 #'
 #' This function converts an unnormalized countmatrix of genes x samples into counts-per-million normalization
 #' @param cortical_area The cortical area to load e.g. 'ALM'
